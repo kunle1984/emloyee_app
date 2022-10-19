@@ -1,1 +1,1 @@
-web: gunicorn EmployeeApp.wsgi
+web: gunicorn realMeetups.wsgi:application --log-file - --log-level debug
